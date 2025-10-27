@@ -1,0 +1,21 @@
+{
+  "name": "Jarvis.JS-TS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/index.ts",
+    "start" : "node ."
+  },
+  "dependencies": {
+    "@types/node": "^24.9.1",
+    "discord.js": "^14.24.0",
+    "dotenv": "^17.2.3",
+    "tsx": "^4.20.6"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.3"
+  },
+  "private": true
+}
