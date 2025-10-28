@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tsc",
     "dev": "tsx watch src/index.ts",
-    "start" : "node ."
+    "start" : "node .",
+    "deploy-commands": "tsx src/deploy-commands.ts"
   },
   "dependencies": {
     "@types/node": "^24.9.1",
