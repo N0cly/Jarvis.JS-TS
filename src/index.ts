@@ -4,7 +4,7 @@ import path from 'node:path';
 import fs from 'node:fs';
 
 const client = new Client({
-    intents: ['Guilds', 'GuildMembers', 'DirectMessages', 'GuildMessages', 'MessageContent']
+    intents: ['Guilds', 'GuildMembers', 'DirectMessages', 'GuildMessages', 'MessageContent', 'GuildVoiceStates']
 });
 
 client.commands = new Collection();
